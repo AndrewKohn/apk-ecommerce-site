@@ -1,14 +1,16 @@
 import { Fragment } from 'react';
-import classes from './MainHeader.module.css';
 import Navigation from './Navigation';
+import bgImg from '../../assets/images/clem-onojeghuo-4fDBYLyhqbI-unsplash.jpg';
+import classes from './MainHeader.module.css';
 
 const MainHeader = props => {
   return (
     <Fragment>
       <Navigation />
-      <section>
-        <h1>This is my main header section</h1>
-        <p>Lorema sldfkjas dlfkj</p>
+      <section className={classes[`main-header`]}>
+        <h1 className={classes[`primary-heading`]}>
+          This is my main header section
+        </h1>
       </section>
     </Fragment>
   );

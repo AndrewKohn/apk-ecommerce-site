@@ -1,0 +1,28 @@
+.main-header {
+  position: relative;
+  height: 80rem;
+  width: 120rem;
+  z-index: 10;
+}
+
+.main-header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('../../assets/images/clem-onojeghuo-4fDBYLyhqbI-unsplash.jpg')
+    no-repeat center 10%;
+  filter: contrast(1.15) brightness(0.6);
+  object-fit: contain;
+  z-index: -10;
+}
+
+.primary-heading {
+  margin-top: 16rem;
+  margin-left: 10rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffe925;
+}
