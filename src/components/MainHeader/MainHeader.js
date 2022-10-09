@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import Navigation from './Navigation';
-import bgImg from '../../assets/images/clem-onojeghuo-4fDBYLyhqbI-unsplash.jpg';
 import classes from './MainHeader.module.css';
+import FeaturedIn from './FeaturedIn';
 
 const MainHeader = props => {
   return (
@@ -12,6 +12,7 @@ const MainHeader = props => {
           This is my main header section
         </h1>
       </section>
+      <FeaturedIn />
     </Fragment>
   );
 };
