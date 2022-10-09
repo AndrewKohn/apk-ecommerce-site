@@ -1,0 +1,23 @@
+.grid-item-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 4rem;
+  box-sizing: border-box;
+  background-color: #555;
+}
+
+.grid-item-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.img {
+  height: 20rem;
+  width: 20rem;
+  background-color: orange;
+}
