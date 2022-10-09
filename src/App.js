@@ -1,7 +1,12 @@
 import classes from './App.module.css';
+import MainHeader from './components/MainHeader/MainHeader';
 
 function App() {
-  return <h1>E-commerce Site</h1>;
+  return (
+    <main className={classes.main}>
+      <MainHeader />
+    </main>
+  );
 }
 
 export default App;
