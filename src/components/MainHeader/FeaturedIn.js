@@ -8,10 +8,10 @@ import classes from './FeaturedIn.module.css';
 
 const FeaturedIn = props => {
   return (
-    <section class={classes[`section-featured`]}>
-      <div class={classes.container}>
-        <h2 class={classes[`heading-featured-in`]}>As featured in</h2>
-        <div class={classes.logos}>
+    <section className={classes[`section-featured`]}>
+      <div className={classes.container}>
+        <h2 className={classes[`heading-featured-in`]}>As featured in</h2>
+        <div className={classes.logos}>
           <img src={techCrunchLogo} alt="techcrunch logo" />
           <img src={businessInsiderLogo} alt="business insider logo" />
           <img src={theNewYorkTimesLogo} alt="NYT logo" />
