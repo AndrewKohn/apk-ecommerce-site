@@ -1,0 +1,18 @@
+.testimonials-section {
+  width: 100%;
+  background-color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-container {
+  max-width: 150rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 6rem;
+  background-color: #9393;
+}
