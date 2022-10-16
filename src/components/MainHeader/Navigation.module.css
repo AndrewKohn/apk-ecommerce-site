@@ -10,7 +10,7 @@
 }
 
 .logo-container {
-  margin-left: 36rem;
+  margin-left: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 
 .nav-list {
-  margin-right: 36rem;
+  margin-right: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
