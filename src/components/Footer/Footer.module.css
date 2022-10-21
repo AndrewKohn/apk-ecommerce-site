@@ -8,10 +8,22 @@
 
 .footer-col {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: center;
   flex-direction: column;
   border: 1px solid black;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: red;
 }
 
 .copyright {

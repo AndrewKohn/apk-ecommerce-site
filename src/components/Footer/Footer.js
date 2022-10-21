@@ -3,34 +3,35 @@ import twitterIcon from '../../assets/images/socials/twitter.svg';
 import instagramIcon from '../../assets/images/socials/instagram.svg';
 
 import classes from './Footer.module.css';
+import Logo from '../UI/Logo/Logo';
 
 const Footer = props => {
   return (
     <footer className={classes.footer}>
       <div className={classes[`footer-col`]}>
         <div>
-          <p>LOGO</p>
-          <div>
+          <Logo />
+          <div className={classes[`social-links`]}>
             <a href="#">
-              <img src={facebookIcon} />
+              <img className={classes[`social-icon`]} src={facebookIcon} />
             </a>
             <a href="#">
-              <img src={twitterIcon} />
+              <img className={classes[`social-icon`]} src={twitterIcon} />
             </a>
             <a href="#">
-              <img src={instagramIcon} />
+              <img className={classes[`social-icon`]} src={instagramIcon} />
             </a>
           </div>
         </div>
         <p className={classes.copyright}>
-          Copyright © 2022 by Omnifood, Inc. All Rights reserved.{' '}
+          Copyright © 2022 by REAL Style, Inc. All Rights reserved.{' '}
         </p>
       </div>
       <div className={classes[`footer-col`]}>
-        <p>Contact Us</p>
+        <span className={classes[`footer-heading`]}>Contact Us</span>
         <address className={classes.contacts}>
           <p className={classes.address}>
-            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            3288 Holmes St., 8th Floor, San Francisco, CA 94107
           </p>
 
           <a className={classes[`footer-link`]} href="tel:415-201-6370">
@@ -38,12 +39,12 @@ const Footer = props => {
           </a>
           <br />
           <a className={classes[`footer-link`]} href="mailto:">
-            contact@BLAH.com
+            contact@realstyle.com
           </a>
         </address>
       </div>
       <div className={classes[`footer-col`]}>
-        <div className={classes[`footer-heading`]}>Account</div>
+        <span className={classes[`footer-heading`]}>Account</span>
         <ul className={classes[`footer-nav`]}>
           <li>
             <a className={classes[`footer-link`]} href="#">
@@ -68,11 +69,11 @@ const Footer = props => {
         </ul>
       </div>
       <div className={classes[`footer-col`]}>
-        <div className={classes[`footer-heading`]}>Company</div>
+        <span className={classes[`footer-heading`]}>Company</span>
         <ul className={classes[`footer-nav`]}>
           <li>
             <a className={classes[`footer-link`]} href="#">
-              About Omnifood
+              About REAL Style
             </a>
           </li>
           <li>
@@ -82,7 +83,7 @@ const Footer = props => {
           </li>
           <li>
             <a className={classes[`footer-link`]} href="#">
-              Cooking partners
+              Apparel partners
             </a>
           </li>
           <li>
@@ -93,11 +94,11 @@ const Footer = props => {
         </ul>
       </div>
       <div className={classes[`footer-col`]}>
-        <div className={classes[`footer-heading`]}>Resources</div>
+        <span className={classes[`footer-heading`]}>Resources</span>
         <ul className={classes[`footer-nav`]}>
           <li>
             <a className={classes[`footer-link`]} href="#">
-              Recipe directory
+              Apparel directory
             </a>
           </li>
           <li>
