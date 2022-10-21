@@ -43,7 +43,7 @@ const Footer = props => {
           </a>
         </address>
       </div>
-      <div className={classes[`footer-col`]}>
+      <div className={classes[`nav-col`]}>
         <span className={classes[`footer-heading`]}>Account</span>
         <ul className={classes[`footer-nav`]}>
           <li>
@@ -68,7 +68,7 @@ const Footer = props => {
           </li>
         </ul>
       </div>
-      <div className={classes[`footer-col`]}>
+      <div className={classes[`nav-col`]}>
         <span className={classes[`footer-heading`]}>Company</span>
         <ul className={classes[`footer-nav`]}>
           <li>
@@ -93,7 +93,7 @@ const Footer = props => {
           </li>
         </ul>
       </div>
-      <div className={classes[`footer-col`]}>
+      <div className={classes[`nav-col`]}>
         <span className={classes[`footer-heading`]}>Resources</span>
         <ul className={classes[`footer-nav`]}>
           <li>

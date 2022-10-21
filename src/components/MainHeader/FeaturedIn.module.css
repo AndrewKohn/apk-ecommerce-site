@@ -1,5 +1,5 @@
 .section-featured {
-  width: 65%;
+  width: 120rem;
   padding: 4.8rem 0 3.2rem 0;
 }
 
@@ -21,4 +21,26 @@
 .logos img {
   height: 3.2rem;
   filter: brightness(0) opacity(50%);
+}
+
+@media (max-width: 1250px) {
+  .section-featured {
+    width: 75rem;
+  }
+  .logos {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .section-featured {
+    width: 55rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-featured {
+    width: 30rem;
+  }
 }

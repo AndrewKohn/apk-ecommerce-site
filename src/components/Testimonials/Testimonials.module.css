@@ -7,7 +7,6 @@
 }
 
 .testimonials-container {
-  max-width: 150rem;
   margin-top: 6rem;
   display: flex;
   justify-content: center;
@@ -15,4 +14,28 @@
   flex-wrap: wrap;
   gap: 6rem;
   background-color: #9393;
+}
+
+@media (max-width: 1350px) {
+  .testimonials-section {
+    width: 120rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .testimonials-section {
+    width: 70rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimonials-section {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials-section {
+    width: 30rem;
+  }
 }

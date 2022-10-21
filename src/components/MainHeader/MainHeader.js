@@ -28,7 +28,7 @@ const MainHeader = props => {
           </p>
 
           <div className={classes[`hero-btn-container`]}>
-            <Button>Try it on</Button>
+            <Button>Get started</Button>
             <Button>Learn more &rarr;</Button>
           </div>
 
@@ -42,7 +42,7 @@ const MainHeader = props => {
               <img src={customer6} />
             </div>
             <p className={classes[`delivered-text`]}>
-              <span>250,000+</span> meals delivered last year!
+              <span>120,000+</span> apparel delivered last year!
             </p>
           </div>
         </div>
