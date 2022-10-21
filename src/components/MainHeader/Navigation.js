@@ -1,11 +1,12 @@
 import classes from './Navigation.module.css';
 import Button from '../UI/Button/Button';
+import Logo from '../UI/Logo/Logo';
 
 const Navigation = props => {
   return (
     <nav className={classes.nav}>
       <div className={classes[`logo-container`]}>
-        <h2>LOGO</h2>
+        <Logo />
         <Button btnSize="small">Shop</Button>
       </div>
       <ul className={classes[`nav-list`]}>
