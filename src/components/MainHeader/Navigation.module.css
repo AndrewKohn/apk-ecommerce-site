@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 20;
+  background-color: purple;
 }
 
 .logo-container {
@@ -29,4 +30,42 @@
 .link {
   text-decoration: none;
   color: #333;
+}
+
+@media (max-width: 1650px) {
+  .nav {
+    width: 120rem;
+  }
+
+  .logo-container {
+    margin-left: 4rem;
+  }
+
+  .nav-list {
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .nav {
+    width: 100rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    width: 35rem;
+  }
 }
