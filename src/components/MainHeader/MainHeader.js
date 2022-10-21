@@ -17,14 +17,12 @@ const MainHeader = props => {
       <section className={classes[`hero-container`]}>
         <div className={classes[`hero-text-container`]}>
           <h1 className={classes[`primary-heading`]}>
-            New brands and new styles, every month, tailored for you
+            Awesome and affordable outfits, straight to your doorstep
           </h1>
           <p className={classes[`hero-text`]}>
-            Discover new outfits, personalized to you.
-          </p>
-          <p className={classes[`hero-text`]}>
-            {' '}
-            Tell us what you like, and we'll find out what you love!
+            Discover new outfits, personalized to you. Tell us what you like,
+            and we'll find out what you love! The No-Risk shopping secret to
+            make your friends jealous - even if you have zero time to shop!
           </p>
 
           <div className={classes[`hero-btn-container`]}>
@@ -46,6 +44,7 @@ const MainHeader = props => {
             </p>
           </div>
         </div>
+        <img className={classes.example} src={customer4} />
       </section>
       <FeaturedIn />
     </Fragment>
